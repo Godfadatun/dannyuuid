@@ -5,7 +5,11 @@ npm package from https://github.com/biggora/device-uuid/
 
 he really helped me out so i decided to convert it into a cdn so we can all use it on the fly without any node_modules
 
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/Godfadatun/dannyuuid/device-uuid.js"></script>
+Installation
+
+ <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/Godfadatun/dannyuuid/device-uuid.js"></script>
+
+
 
 
 automatically create not browser depended uuid:
