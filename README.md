@@ -5,9 +5,9 @@ npm package from https://github.com/biggora/device-uuid/
 
 he really helped me out so i decided to convert it into a cdn so we can all use it on the fly without any node_modules
 
-Installation
+# Installation
 
- <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/Godfadatun/dannyuuid/device-uuid.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/Godfadatun/dannyuuid/device-uuid.js"></script>
 
 
 
@@ -22,7 +22,7 @@ as a result example:
 
 custom device uuid generation:
 
-var du = new DeviceUUID().parse();
+    var du = new DeviceUUID().parse();
     var dua = [
         du.language,
         du.platform,
@@ -47,7 +47,7 @@ var du = new DeviceUUID().parse();
     ];
     var uuid = du.hashMD5(dua.join(':'));
 
-##module provides details such as the following:
+## module provides details such as the following:
 
 {
   "isMobile":false,
