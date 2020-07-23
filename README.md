@@ -49,16 +49,16 @@ custom device uuid generation:
 
 ## module provides details such as the following:
 
-{
-  "isMobile":false,
-  "isDesktop":true,
-  "isBot":false,
-  .....
-  "browser":"Chrome",
-  "version":"17.0.963.79",
-  "os":"Windows 7",
-  "platform":"Microsoft Windows",
-  "source":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.79..."
-}
+     {
+      "isMobile":false,
+      "isDesktop":true,
+      "isBot":false,
+      .....
+      "browser":"Chrome",
+      "version":"17.0.963.79",
+      "os":"Windows 7",
+      "platform":"Microsoft Windows",
+      "source":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.79..."
+    }
 
 for further info check https://github.com/biggora
